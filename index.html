@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Página Web con Aside</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Mi Página Web</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#articulo1">Artículo 1</a></li>
+      <li><a href="#articulo2">Artículo 2</a></li>
+      <li><a href="#articulo3">Artículo 3</a></li>
+      <li><a href="#seccion1">Sección 1</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="content">
+      <article id="articulo1">
+       <h2><i class="fas fa-newspaper icono"></i>Artículo 1</h2>
+       <picture>
+        <source srcset="" type="image/webp">
+        <img src="image/foto01.jpg" alt="Descripción de la imagen del artículo 1" style="max-width: 20%; height: auto;">
+    </picture>
+        <p>Este es el contenido del primer artículo. Puedes ir a la <a href="#seccion1">Sección 1</a>.</p>
+      </article>
+
+      <article id="articulo2">
+        <h2><i class="fas fa-book icono"></i>Artículo 2</h2>
+        <picture>
+            <source srcset="" type="image/webp">
+            <img src="image/foto3.jpg" alt="Descripción de la imagen del artículo 1" style="max-width: 20%; height: auto;">
+        </picture>
+        <p>Contenido del segundo artículo. Mira la <a href="#seccion2">Sección 2</a> para más información.</p>
+      </article>
+
+      <article id="articulo3">
+        <h2><i class="fas fa-lightbulb icono"></i> Artículo 3</h2>
+        <picture>
+            <source srcset="" type="image/webp">
+            <img src="image/foto2.jpg" alt="Descripción de la imagen del artículo 1" style="width: 20%; height: auto;">
+        </picture>
+        <p>Último artículo de esta página. Enlace a la <a href="#seccion3">Sección 3</a>.</p>
+      </article>
+
+      <section id="seccion1">
+        <h3>Sección 1</h3>
+        <ol>
+          <li>Elemento uno</li>
+          <li>Elemento dos</li>
+          <li>Elemento tres</li>
+        </ol>
+        <p>Este es el contenido del primer artículo. Puedes ir a la <a href="#articulo1">artículo 1</a>.</p>
+      </section>
+
+      <section id="seccion2">
+        <h3>Sección 2</h3>
+        <ol>
+          <li>Paso A</li>
+          <li>Paso B</li>
+          <li>Paso C</li>
+        </ol>
+
+        <p>Este es el contenido del segundo artículo. Puedes ir a la <a href="#articulo2">artículo 2</a>.</p>
+      </section>
+
+      <section id="seccion3">
+        <h3>Sección 3</h3>
+        <ol>
+          <li>Primero</li>
+          <li>Segundo</li>
+          <li>Tercero</li>
+        </ol>
+
+        <p>Este es el contenido del tercer artículo. Puedes ir a la <a href="#articulo2">artículo 3</a>.</p>
+      </section>
+    </div>
+
+    <aside>
+      <h3>Menú Lateral</h3>
+      <nav>
+        <ul>
+          <li><a href="#articulo1">Ir a Artículo 1</a></li>
+          <li><a href="#articulo2">Ir a Artículo 2</a></li>
+          <li><a href="#seccion1">Ir a Sección 1</a></li>
+          <li><a href="#seccion3">Ir a Sección 3</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2025 Mi Sitio Web</p>
+  </footer>
+
+</body>
+</html>
